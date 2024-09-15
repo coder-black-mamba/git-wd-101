@@ -1,3 +1,8 @@
+// This is the main day count for the everything
+const ROOT_DAY_COUNT=1;
+
+
+
 function generateDaysCards(days) {
   let dayCards = "";
   days.forEach((day) => {
@@ -8,6 +13,18 @@ function generateDaysCards(days) {
     const codeLink = day.code_link;
     const resources = day.resources;
     const assignment_submit_link = day.assignment_submit_link;
+
+    // updating the hero area
+    if (dayCount==ROOT_DAY_COUNT) {
+      updateHeroArea(assignment
+        ,assignment_submit_link,codeLink,resources.link_1,resources.link_2
+      )
+    }
+
+
+
+
+
     const card = `
         <div class="col-md-6 col-lg-4 h-auto">
             <div class="card day-card">
@@ -53,6 +70,23 @@ function generateDaysCards(days) {
   return dayCards;
 }
 
+
+// updating the hero area for assignment solution
+function updateHeroArea(assignment,assignment_submit_link,hero_code_link,ref_1,ref_2){
+  const heroAssignment=document.getElementById("hero-assignment");
+  const submitAssignment=document.getElementById("hero-assignment-submit-link");
+  const codeLink=submitAssignment.nextElementSibling;
+  const ref1=codeLink.nextElementSibling;
+  const ref2=ref1.nextElementSibling;
+
+  // updating the value
+  heroAssignment.innerText="Asignment For Today : "+assignment;
+  submitAssignment.href=assignment_submit_link;
+  codeLink.href=hero_code_link;
+  ref1.href=ref_1;
+  ref2.href=ref_2;
+
+}
 
 window.onload = function () {
   // hey window is ready nowS
