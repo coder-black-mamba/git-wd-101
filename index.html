@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Design Course Resources</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: Poppins, "sans-serif";
+      }
+      .phase-card {
+        margin-bottom: 2rem;
+      }
+      .day-card {
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">GIT Web Design</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#courseAccordion">Classes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="py-3 my-5 rounded bg-warning">
+        <h1 class="text-center">Assignment For Today</h1>
+        <div class="py-3 text-center">
+          <a href="#" class="btn btn-danger">Submit Assignment</a>
+          <a href="#" class="btn btn-outline-danger">Show Class Code</a>
+        </div>
+      </div>
+
+      <div class="accordion" id="courseAccordion">
+        <!-- Phase 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="phase1Heading">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#phase1Collapse"
+              aria-expanded="true"
+              aria-controls="phase1Collapse"
+            >
+              Phase 1: Web Basics & HTML Foundations
+            </button>
+          </h2>
+          <div
+            id="phase1Collapse"
+            class="accordion-collapse collapse show"
+            aria-labelledby="phase1Heading"
+          >
+            <div class="accordion-body"></div>
+          </div>
+        </div>
+
+        <!-- Phase 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="phase2Heading">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#phase2Collapse"
+              aria-expanded="false"
+              aria-controls="phase2Collapse"
+            >
+              Phase 2: Introduction to CSS
+            </button>
+          </h2>
+          <div
+            id="phase2Collapse"
+            class="accordion-collapse collapse"
+            aria-labelledby="phase2Heading"
+          >
+            <div class="accordion-body">
+              <div class="row">
+                <!-- Day 7 -->
+                <div class="col-md-6 col-lg-4">
+                  <div class="card day-card">
+                    <div class="card-body">
+                      <h5 class="card-title">Day 7: CSS Basics</h5>
+                      <p class="card-text">
+                        Introduction to CSS, syntax, and basic styling.
+                      </p>
+                      <a href="#" class="btn btn-primary btn-sm"
+                        >Google Classroom</a
+                      >
+                      <a
+                        href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps"
+                        class="btn btn-secondary btn-sm"
+                        target="_blank"
+                        >Resource 1</a
+                      >
+                      <a
+                        href="https://www.w3schools.com/css/css_intro.asp"
+                        class="btn btn-secondary btn-sm"
+                        target="_blank"
+                        >Resource 2</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container mt-5">
+      <h1 class="mb-4">Course Instructor Information</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="/api/placeholder/300/300"
+            alt="Instructor Name"
+            class="img-fluid rounded-circle mb-3"
+          />
+        </div>
+        <div class="col-md-8">
+          <h2>Dr. Jane Doe</h2>
+          <p class="lead">Associate Professor of Computer Science</p>
+          <p><strong>Email:</strong> jane.doe@university.edu</p>
+          <p><strong>Office:</strong> Science Building, Room 301</p>
+          <p>
+            <strong>Office Hours:</strong> Monday and Wednesday, 2:00 PM - 4:00
+            PM
+          </p>
+          <h3 class="mt-4">Biography</h3>
+          <p>
+            Dr. Jane Doe has been teaching computer science for over 10 years.
+            Her research focuses on artificial intelligence and machine
+            learning. She has published numerous papers in top-tier conferences
+            and journals.
+          </p>
+          <h3 class="mt-4">Courses Taught</h3>
+          <ul>
+            <li>Introduction to Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Machine Learning Fundamentals</li>
+          </ul>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container mt-5" id="contact">
+      <div class="row justify-content-center bg-light">
+        <div class="col-md-8">
+          <div class="instructor-card p-4">
+            <h1 class="text-center mb-4 ">Course Instructor</h1>
+
+            <div class="d-flex align-items-center">
+
+            <div class="text-center mb-3">
+              <img
+                src="./images/pp.png"
+                alt="Instructor Name"
+                class="rounded-circle w-50"
+              />
+            </div>
+            <div class="p-2">
+              <h2 class="text-center">Abu Sayed</h2>
+            <p class="text-center">Software Developer</p>
+            <hr />
+            <p><strong>Email:</strong> sde.sayed24@gmail.com</p>
+            <p><strong>Phone:</strong> +8801717963289</p>
+            <p>
+              <strong>Facebook:</strong>
+              <a href="https://www.facebook.com/profile.php?id=100066946987258"
+                >Abu Sayed</a
+              >
+            </p>
+            <p>
+              <strong>Linked In:</strong>
+              <a href="https://www.linkedin.com/in/itisabusayed/">Abu Sayed</a>
+            </p>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark text-white mt-5">
+      <div class="container p-3 text-center">
+        &copy;2024 all rights reserved by
+        <a href="https://github.com/coder-black-mamba">Abu Sayed</a>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

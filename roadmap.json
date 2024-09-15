@@ -1,0 +1,396 @@
+{
+    "course_duration": "30 days",
+    "course_structure": [
+      {
+        "phase": "1",
+        "title": "Web Basics & HTML Foundations",
+        "days": [
+          {
+            "day": "1",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Introduction to Web Design & the Internet",
+            "description": "Overview of web design, the structure of the web, and how websites work.",
+            "assignment": "Research the history of the internet and list 5 key events.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works",
+              "link_2": "https://www.w3schools.com/whatis/"
+            }
+          },
+          {
+            "day": "2",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Introduction to HTML",
+            "description": "Learn basic structure of HTML, tags, elements, and attributes.",
+            "assignment": "Create a simple webpage with text and links.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML",
+              "link_2": "https://www.w3schools.com/html/html_intro.asp"
+            }
+          },
+          {
+            "day": "3",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Working with Images & Multimedia in HTML",
+            "description": "Learn how to embed images, audio, and video into a webpage.",
+            "assignment": "Create a multimedia-rich webpage with images and videos.",
+            "resources": {
+              "link_1": "https://www.w3schools.com/html/html_images.asp",
+              "link_2": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding"
+            }
+          },
+          {
+            "day": "4",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Lists, Tables & Forms in HTML",
+            "description": "Create lists, tables, and forms in HTML.",
+            "assignment": "Design a contact form and add a table of favorite books or movies.",
+            "resources": {
+              "link_1": "https://www.w3schools.com/html/html_forms.asp",
+              "link_2": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"
+            }
+          },
+          {
+            "day": "5",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Semantic HTML & Accessibility",
+            "description": "Learn about semantic HTML elements and accessibility best practices.",
+            "assignment": "Refactor your webpage using semantic elements for better accessibility.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics",
+              "link_2": "https://www.w3.org/WAI/WCAG21/quickref/"
+            }
+          },
+          {
+            "day": "6",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Project: Build a Simple Personal Webpage",
+            "description": "Create a simple personal website with images, links, and a contact form.",
+            "assignment": "Build your personal webpage using HTML, focusing on structure and accessibility.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content",
+              "link_2": "https://www.w3schools.com/html/html5_semantic_elements.asp"
+            }
+          }
+        ]
+      },
+      {
+        "phase": "2",
+        "title": "Introduction to CSS",
+        "days": [
+          {
+            "day": "7",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "CSS Basics",
+            "description": "Introduction to CSS, syntax, and basic styling.",
+            "assignment": "Apply basic styling (color, font, background) to your HTML page.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps",
+              "link_2": "https://www.w3schools.com/css/css_intro.asp"
+            }
+          },
+          {
+            "day": "8",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "CSS Box Model & Text Styling",
+            "description": "Learn about the CSS box model and how to style text.",
+            "assignment": "Create a webpage with structured text and apply the box model.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model",
+              "link_2": "https://www.w3schools.com/css/css_boxmodel.asp"
+            }
+          },
+          {
+            "day": "9",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "CSS Layouts with Flexbox",
+            "description": "Introduction to Flexbox for modern web layouts.",
+            "assignment": "Create a responsive navigation bar and layout using Flexbox.",
+            "resources": {
+              "link_1": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+              "link_2": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"
+            }
+          },
+          {
+            "day": "10",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "CSS Grid Layout",
+            "description": "Learn about CSS Grid for advanced layouts.",
+            "assignment": "Build a grid-based layout for a webpage.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout",
+              "link_2": "https://www.w3schools.com/css/css_grid.asp"
+            }
+          },
+          {
+            "day": "11",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Responsive Web Design with Media Queries",
+            "description": "Learn responsive design techniques using media queries.",
+            "assignment": "Make your webpage responsive using media queries.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Media_queries",
+              "link_2": "https://www.w3schools.com/css/css_rwd_mediaqueries.asp"
+            }
+          },
+          {
+            "day": "12",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Advanced CSS (Transitions & Animations)",
+            "description": "Explore CSS transitions and animations for dynamic effects.",
+            "assignment": "Animate a button and other elements on your webpage.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations",
+              "link_2": "https://www.w3schools.com/css/css3_animations.asp"
+            }
+          }
+        ]
+      },
+      {
+        "phase": "3",
+        "title": "Introduction to JavaScript & Interactivity",
+        "days": [
+          {
+            "day": "13",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "JavaScript Basics",
+            "description": "Introduction to JavaScript syntax, variables, and data types.",
+            "assignment": "Write simple JavaScript to display dynamic content.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript",
+              "link_2": "https://www.w3schools.com/js/js_intro.asp"
+            }
+          },
+          {
+            "day": "14",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Functions & Events in JavaScript",
+            "description": "Learn how to write JavaScript functions and handle events.",
+            "assignment": "Add interactivity to buttons and forms using JavaScript.",
+            "resources": {
+              "link_1": "https://www.w3schools.com/js/js_functions.asp",
+              "link_2": "https://developer.mozilla.org/en-US/docs/Web/Events"
+            }
+          },
+          {
+            "day": "15",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "DOM Manipulation",
+            "description": "Learn how to manipulate the DOM using JavaScript.",
+            "assignment": "Create a dynamic webpage that changes content based on user interaction.",
+            "resources": {
+              "link_1": "https://www.w3schools.com/js/js_htmldom.asp",
+              "link_2": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
+            }
+          },
+          {
+            "day": "16",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "JavaScript Form Validation",
+            "description": "Validate form inputs using JavaScript.",
+            "assignment": "Implement JavaScript-based validation for a form.",
+            "resources": {
+              "link_1": "https://www.w3schools.com/js/js_validation.asp",
+              "link_2": "https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation"
+            }
+          },
+          {
+            "day": "17",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Introduction to jQuery (Optional)",
+            "description": "Learn how to simplify JavaScript with jQuery.",
+            "assignment": "Use jQuery to create a basic interactive feature on your website.",
+            "resources": {
+              "link_1": "https://www.w3schools.com/jquery/jquery_intro.asp",
+              "link_2": "https://learn.jquery.com/"
+            }
+          },
+          {
+            "day": "18",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Final JavaScript Project",
+            "description": "Build a small interactive application using HTML, CSS, and JavaScript.",
+            "assignment": "Create a to-do list or a simple game that uses DOM manipulation and user interaction.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript",
+              "link_2": "https://www.w3schools.com/js/"
+            }
+          }
+        ]
+      },
+      {
+        "phase": "4",
+        "title": "Web Design Tools & Frameworks",
+        "days": [
+          {
+            "day": "19",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Introduction to Web Design Tools (Figma/Adobe XD)",
+            "description": "Learn about popular web design tools for wireframing and prototyping.",
+            "assignment": "Create a wireframe for a webpage using Figma or Adobe XD.",
+            "resources": {
+              "link_1": "https://www.figma.com/",
+              "link_2": "https://www.adobe.com/products/xd.html"
+            }
+          },
+          {
+            "day": "20",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "CSS Frameworks (Bootstrap or Tailwind CSS)",
+            "description": "Explore CSS frameworks for rapid web design.",
+            "assignment": "Build a responsive webpage using Bootstrap or Tailwind.",
+            "resources": {
+              "link_1": "https://getbootstrap.com/",
+              "link_2": "https://tailwindcss.com/"
+            }
+          },
+          {
+            "day": "21",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Version Control with Git & GitHub",
+            "description": "Learn how to use Git and GitHub for version control.",
+            "assignment": "Set up Git version control for your project and push it to GitHub.",
+            "resources": {
+              "link_1": "https://git-scm.com/",
+              "link_2": "https://guides.github.com/"
+            }
+          },
+          {
+            "day": "22",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Web Graphics Optimization",
+            "description": "Optimize images and multimedia for faster load times.",
+            "assignment": "Compress images and test the load time of your webpage.",
+            "resources": {
+              "link_1": "https://squoosh.app/",
+              "link_2": "https://www.w3schools.com/html/html_images.asp"
+            }
+          },
+          {
+            "day": "23",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "SEO Basics & Best Practices",
+            "description": "Learn basic SEO techniques to improve website visibility.",
+            "assignment": "Optimize your webpage for search engines using meta tags and keywords.",
+            "resources": {
+              "link_1": "https://moz.com/beginners-guide-to-seo",
+              "link_2": "https://developers.google.com/search/docs/beginner/seo-starter-guide"
+            }
+          },
+          {
+            "day": "24",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Website Performance & Testing",
+            "description": "Use tools to test website performance and optimize loading speed.",
+            "assignment": "Test and improve your website's loading performance.",
+            "resources": {
+              "link_1": "https://web.dev/measure/",
+              "link_2": "https://developers.google.com/speed/pagespeed/insights/"
+            }
+          }
+        ]
+      },
+      {
+        "phase": "5",
+        "title": "Final Project & Deployment",
+        "days": [
+          {
+            "day": "25",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Final Project Planning & Design",
+            "description": "Plan and design your final project website.",
+            "assignment": "Create a wireframe and outline for your final project website.",
+            "resources": {
+              "link_1": "https://www.figma.com/",
+              "link_2": "https://www.w3schools.com/w3css/w3css_templates.asp"
+            }
+          },
+          {
+            "day": "26",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Building the Final Project (HTML & CSS)",
+            "description": "Develop the structure and design of your final project website using HTML and CSS.",
+            "assignment": "Start building the HTML structure and CSS layout for your final project.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
+              "link_2": "https://www.w3schools.com/html/"
+            }
+          },
+          {
+            "day": "27",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Adding Interactivity (JavaScript)",
+            "description": "Add interactive features to your website using JavaScript.",
+            "assignment": "Implement JavaScript functionality such as form validation or animations.",
+            "resources": {
+              "link_1": "https://www.w3schools.com/js/js_intro.asp",
+              "link_2": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            }
+          },
+          {
+            "day": "28",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Final Touches & Testing",
+            "description": "Test your website for responsiveness, accessibility, and performance.",
+            "assignment": "Fix any issues and add final design changes to your project.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility",
+              "link_2": "https://www.webpagetest.org/"
+            }
+          },
+          {
+            "day": "29",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Web Hosting & Deployment",
+            "description": "Learn about web hosting services and deploy your project to a live server.",
+            "assignment": "Deploy your final project using Netlify or GitHub Pages.",
+            "resources": {
+              "link_1": "https://www.netlify.com/",
+              "link_2": "https://pages.github.com/"
+            }
+          },
+          {
+            "day": "30",
+            "assignment_submit_link":"/",
+            "code_link":"https://www.github.com/coder-black-mamba",
+            "topic": "Final Presentation & Course Wrap-Up",
+            "description": "Present your final project and review key concepts learned throughout the course.",
+            "assignment": "Prepare and present your project to the class.",
+            "resources": {
+              "link_1": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web",
+              "link_2": "https://www.w3schools.com/"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
